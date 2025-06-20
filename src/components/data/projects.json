@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "description": "Intégration responsive de la page d’accueil d’une agence de voyage en HTML/CSS",
+    "image": "/imagesProject/Booki-2.webp",
+    "technologies": ["HTML5", "CSS3"],
+    "link": "https://vico04.github.io/ProjetBooki/",
+    "repo": "https://github.com/vico04/ProjetBooki"
+  },
+  {
+    "id": 2,
+    "title": "Sophie Bluel - Architecte d'intérieur",
+    "description": "Développement complet d’un site vitrine administrable pour une architecte d’intérieur",
+    "image": "/imagesProject/Sophie_bluel.webp",
+    "technologies": "Javascript",
+    "repo": "https://github.com/vico04/Portfolio-architecte-sophie-bluel"
+  },
+
+  {
+    "id": 3,
+    "title": "Photographe - Nina Carducci",
+    "description": "Audit, debug et optimisation SEO et accessibilité d’un site photo",
+    "image": "/imagesProject/Nina_Carducci.webp",
+    "technologies": ["Lighthouse", "Wave", "Bootstrap"],
+    "link": "https://vico04.github.io/Nina-Carducci-Dev/",
+    "repo": "https://github.com/vico04/Nina-Carducci-Dev"
+  },
+
+  {
+    "id": 4,
+    "title": "KASA",
+    "description": "Création d’un site de location d'appartements entre particuliers, gestion des routes dynamiques, composants réutilisables et animations.",
+    "image": "imagesProject/Kasa.webp",
+    "technologies": "React",
+    "link": "https://vico04.github.io",
+    "repo": "https://github.com/vico04/vico04.github.io"
+  },
+
+  {
+    "id": 5,
+    "title": "Mon Vieux Grimoire",
+    "description": "Développement de l’API REST pour un site de notation de livres (authentification, sécurité, logique métier)",
+    "image": "imagesProject/Mon_vieux_grimoire.webp",
+    "technologies": ["Node.js", "Express", "MongoDB"],
+    "repo": "https://github.com/vico04/P7-Dev-Web-livres"
+  }
+]

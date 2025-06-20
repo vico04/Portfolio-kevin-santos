@@ -1,0 +1,31 @@
+//Couleurs texte
+$textcolor-primary: black;
+$textcolor-secondary: #444444;
+$textcolor-tertiary: white;
+
+//Police du texte
+$font-primary: 'Spectral';
+
+//couleur
+$color-primary: white;
+$color-secondary: black;
+$color-tertiary: #050319;
+$color-quartenary: #f7f7f7;
+
+//Background pour les skills
+:root {
+  --degree: 90deg;
+  --primary: #fff;
+  --primary-lighter: #e3f0fe;
+}
+
+//Toggle pour les liens de la card
+:root {
+  --mauve-11: #8e44ad;
+  --violet-3: #d6bcfa;
+  --violet-6: #7e57c2;
+  --violet-12: #4a148c;
+  --white: #ffffff;
+  --black-a7: rgba(0, 0, 0, 0.7);
+  --blue: #77b5fe;
+}

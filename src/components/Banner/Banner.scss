@@ -1,0 +1,132 @@
+@use '../../styles/variables' as *;
+
+.banner {
+  width: 100%;
+  height: 700px;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .banner-intro {
+    color: $textcolor-tertiary;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+
+    h1 {
+      font-size: 40px;
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+      padding-left: 27px;
+      padding-right: 27px;
+    }
+  }
+
+  .banner-links {
+    width: 100%;
+    height: 70%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .link-box {
+    border: 1px solid;
+    padding: 11px 30px;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px var(--black-a7);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1047px) {
+  .banner {
+    background-size: cover;
+
+    .banner-intro {
+      .banner-text {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+@media (min-width: 548px) and (max-width: 768px) {
+  .banner {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    .banner-intro {
+      .banner-text {
+        font-size: 29px;
+        text-align: center;
+        padding-right: 27px;
+      }
+    }
+
+    .banner-links {
+      height: 30%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      margin-bottom: 80px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    .link-box {
+      width: 160px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+
+    a {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 547px) {
+  .banner {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    .banner-intro {
+      .banner-text {
+        font-size: 25px;
+        text-align: center;
+        padding-right: 27px;
+      }
+    }
+
+    .banner-links {
+      height: 30%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      margin-bottom: 50px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    .link-box {
+      width: 160px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+
+    a {
+      font-size: 15px;
+    }
+  }
+}
