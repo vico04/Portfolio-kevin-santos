@@ -35,7 +35,7 @@ const Banner = ({ image, text, subtitle, projectLink, contactLink, cvLink }: Ban
         </div>
         <div className="link-box">
           {cvLink && (
-            <a href={cvLink.href} className="cv-link" download="/Portfolio-kevin-santos/CV-kevin-santos.pdf">
+            <a href={cvLink.href} className="cv-link" download="CV-kevin-santos.pdf">
               {cvLink.label}
             </a>
           )}
