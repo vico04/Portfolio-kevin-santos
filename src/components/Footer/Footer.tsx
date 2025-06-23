@@ -12,7 +12,7 @@ const Footer = () => {
 
           <div className="form-background">
             <form action="https://formsubmit.co/santoskevin27@yahoo.fr" method="POST" className="form-box">
-              <input type="hidden" name="_next" value="https://vico04.github.io/Portfolio-kevin-santos/" />
+              <input type="hidden" name="_next" value="https://vico04.github.io/Portfolio-kevin-santos/merci.html" />
               <label htmlFor="name">Nom</label>
               <input type="text" name="name" id="name" required></input>
               <label htmlFor="email">Email</label>
