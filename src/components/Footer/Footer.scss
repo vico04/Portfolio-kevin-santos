@@ -123,6 +123,8 @@
 @media (min-width: 320px) and (max-width: 768px) {
   .footer {
     .contact-container {
+      background-attachment: scroll;
+
       h2 {
         font-size: 30px;
       }
