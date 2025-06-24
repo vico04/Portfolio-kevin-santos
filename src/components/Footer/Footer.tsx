@@ -2,6 +2,16 @@ import '../../components/Footer/Footer.scss';
 import contactImg from '../../assets/images/technology-2.jpg';
 
 const Footer = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    fetch('https://formsubmit.co/ajax/santoskevin27@yahoo.fr', {
+      method: 'POST',
+      body: new FormData(e.currentTarget),
+    }).then(() => {
+      window.location.href = 'https://vico04.github.io/Portfolio-kevin-santos/merci.html';
+    });
+  };
+
   return (
     <footer className="footer">
       <div className="overlay">
@@ -11,8 +21,7 @@ const Footer = () => {
           </div>
 
           <div className="form-background">
-            <form action="https://formsubmit.co/santoskevin27@yahoo.fr" method="POST" className="form-box">
-              <input type="hidden" name="_next" value="https://vico04.github.io/Portfolio-kevin-santos/merci.html" />
+            <form onSubmit={handleSubmit} className="form-box">
               <label htmlFor="name">Nom</label>
               <input type="text" name="name" id="name" required></input>
               <label htmlFor="email">Email</label>

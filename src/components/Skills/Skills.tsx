@@ -3,6 +3,11 @@ import skillsImg from '../../assets/images/technology-2.jpg';
 import frontIcon from '../../assets/logo/front-end.png';
 import backIcon from '../../assets/logo/backend-2.png';
 import toolsIcon from '../../assets/logo/technical-support-2.png';
+import reactLogo from '../../assets/logo/react-logo.png';
+import jsLogo from '../../assets/logo/js-logo.png';
+import nodeLogo from '../../assets/logo/node-logo.png';
+import mongoLogo from '../../assets/logo/mongo-logo.png';
+import tsLogo from '../../assets/logo/ts-logo.png';
 
 const Skills = () => {
   return (
@@ -21,11 +26,30 @@ const Skills = () => {
           <ul className="frontend-details">
             <br />
             <li>
-              <strong>Langages :</strong> JavaScript (ES6+), TypeScript
+              <strong>Langages :</strong>
+              <ul className="tech-line">
+                <li>
+                  <div className="tech-item">
+                    JavaScript (ES6+) <img src={jsLogo} alt="Logo JavaScript" />
+                  </div>
+                </li>
+                <li>
+                  <div className="tech-item">
+                    TypeScript <img src={tsLogo} alt="Logo Typescript" />
+                  </div>
+                </li>
+              </ul>
             </li>
             <br />
             <li>
-              <strong>Frameworks et Bibliothèques :</strong> React
+              <strong>Frameworks et Bibliothèques :</strong>
+              <ul className="tech-line">
+                <li>
+                  <div className="tech-item">
+                    React <img src={reactLogo} alt="Logo React" />
+                  </div>
+                </li>
+              </ul>
             </li>
             <br />
             <li>
@@ -43,11 +67,25 @@ const Skills = () => {
           <ul className="backend-details">
             <br />
             <li>
-              <strong>Langages et Frameworks :</strong> Node.js (Express.js)
+              <strong>Langages et Frameworks :</strong>
+              <ul className="tech-line">
+                <li>
+                  <div className="tech-item">
+                    Node.js (Express.js) <img src={nodeLogo} alt="Logo Node.Js" />
+                  </div>
+                </li>
+              </ul>
             </li>
             <br />
             <li>
-              <strong>Bases de Données :</strong> MongoDB
+              <strong>Bases de Données :</strong>
+              <ul className="tech-line">
+                <li>
+                  <div className="tech-item">
+                    MongoDB <img src={mongoLogo} alt="Logo MongoDbs" />
+                  </div>
+                </li>
+              </ul>
             </li>
             <br />
             <li>
