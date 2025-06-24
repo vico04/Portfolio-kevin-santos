@@ -2,14 +2,21 @@ import '../../components/Footer/Footer.scss';
 import contactImg from '../../assets/images/technology-2.jpg';
 
 const Footer = () => {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    fetch('https://formsubmit.co/ajax/santoskevin27@yahoo.fr', {
-      method: 'POST',
-      body: new FormData(e.currentTarget),
-    }).then(() => {
-      window.location.href = 'https://vico04.github.io/Portfolio-kevin-santos/merci.html';
-    });
+    try {
+      const response = await fetch('https://getform.io/f/bnlxwexb', {
+        method: 'POST',
+        body: new FormData(e.currentTarget),
+      });
+      if (response.ok) {
+        window.location.href = 'https://vico04.github.io/Portfolio-kevin-santos/merci.html';
+      } else {
+        console.error('Erreur lors de l’envoi du formulaire');
+      }
+    } catch (err) {
+      console.error('Erreur réseau', err);
+    }
   };
 
   return (
