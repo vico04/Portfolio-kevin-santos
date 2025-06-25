@@ -16,7 +16,7 @@ const Header = () => {
         text="KEVIN SANTOS - Développeur Front-End"
         projectLink={{ href: '#projects', label: 'Voir mes projets' }}
         contactLink={{ href: '#contact', label: 'Me contacter' }}
-        cvLink={{ href: '/Portfolio-kevin-santos/cv/CV-kevin-santos.pdf', label: 'Télécharger mon CV' }}
+        cvLink={{ href: '/Portfolio-kevin-santos/cv/CV-kevin-santos-2.pdf', label: 'Télécharger mon CV' }}
       />
     </header>
   );

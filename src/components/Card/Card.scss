@@ -67,6 +67,7 @@
       align-items: center;
       justify-content: center;
       box-shadow: 0 2px 10px var(--black-a7);
+      cursor: pointer;
     }
 
     .toggle-style:hover {
@@ -88,7 +89,6 @@
     a {
       width: 20%;
       text-decoration: none;
-      cursor: pointer;
       color: inherit;
     }
   }
